@@ -1,0 +1,10 @@
+notebooks/
+data/
+sql/
+tests/
+.git/
+.gitignore
+__pycache__/
+*.pyc
+.pytest_cache/
+*.md

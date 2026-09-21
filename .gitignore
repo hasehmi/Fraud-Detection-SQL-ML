@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.pytest_cache/
+api.log
+
+# Notebook-generated model copies (the shipped, versioned copies live in models/)
+notebooks/*.pkl
+notebooks/*.png
