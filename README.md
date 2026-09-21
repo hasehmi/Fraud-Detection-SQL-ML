@@ -148,8 +148,3 @@ curl -X POST http://localhost:8000/predict -H "Content-Type: application/json" -
 - Add a graph-based feature (shared devices/IPs between customers) — a common real-world fraud signal not modeled here.
 - Test on a real anonymized fraud dataset (e.g. IEEE-CIS) to see whether these engineered feature *types* transfer.
 - Move the SQL feature view from a materialized view (manually refreshed) to an incremental/streaming computation, since a production fraud system needs to score transactions within milliseconds, not after a batch refresh.
-
-## Author
-
-Ans Tanveer Hashmi — BS Data Science, MNS University of Agriculture, Multan.
-[LinkedIn] · [GitHub]
